@@ -1,0 +1,1 @@
+while true; do python videomasher.py > playlist.txt;time mplayer -saturation 99 -speed 0.7 -fixed-vo -fs -endpos .7 -playlist playlist.txt; done
